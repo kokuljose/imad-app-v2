@@ -26,7 +26,7 @@ var template=` <!DOCTYPE html>
 	</head>
 	<body>
 		
-		${title}
+		${ar1[title]}
 		${date}
 			
 	</body>
