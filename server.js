@@ -44,18 +44,14 @@ app.get('/', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/a1',function (req, res){
-    res.send(ctemplate(article[a1]));
+app.get('/:arname',function (req, res){
+    var arname=req.params.arname;
+    res.send(ctemplate(article[arname]));
 });
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('/a2',function (req, res){
-    res.send(ctemplate(a2));
-});
-app.get('/a3',function (req, res){
-    res.send(template(a3));
-});
+
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
