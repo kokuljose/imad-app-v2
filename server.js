@@ -31,8 +31,8 @@ var template=` <!DOCTYPE html>
 </head>
 <body>
 <h1>hello</h1>
-${title}
-${date}
+//${title}
+//${date}
 
 </body>
 </html>`;
