@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById('main');
 element.innerHTML="kokul jose";
-var img=document.getElementById(madi);
+var img=document.getElementById('madi');
 var marginLeft=0;
 function moveright()
 {
