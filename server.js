@@ -19,7 +19,7 @@ var article={
             }
     };
 
-ctemplate(data)
+function ctemplate(data)
 {
     var title=data.title;
     var date=data.date;
