@@ -23,19 +23,17 @@ function ctemplate(data)
 {
     var title=data.title;
     var date=data.date;
-var template=` <!DOCTYPE html>
-<html>
-<head>
-
-<title>kokul</title>
-</head>
-<body>
-<h1>hello</h1>
-${title}
-${date}
-
-</body>
-</html>`;
+    var template=` <!DOCTYPE html>
+    <html>
+    <head>
+    <title>kokul</title>
+    </head>
+    <body>
+    <h1>hello</h1>
+        ${title}
+        ${date}
+    </body>
+    </html>`;
 }
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
