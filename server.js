@@ -22,9 +22,7 @@ var article={
 ctemplate(data)
 {
     var title=data.title;
-    var date-data.date;
-
-
+    var date=data.date;
 var template=` <!DOCTYPE html>
 <html>
 <head>
@@ -47,13 +45,13 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 app.get('/a1',function (req, res){
-    res.send(template(article[ar1]));
+    res.send(ctemplate(article[ar1]));
 });
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/a2',function (req, res){
-    res.send(template(ar2));
+    res.send(ctemplate(ar2));
 });
 app.get('/a3',function (req, res){
     res.send(template(ar3));
