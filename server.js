@@ -18,20 +18,27 @@ var article={
             date:"sept3"
             }
     };
+
+ctemplate(data)
+{
+    var title=data.title;
+    var date-data.date;
+
+
 var template=` <!DOCTYPE html>
 <html>
-	<head>
-		
-		<title>kokul</title>
-	</head>
-	<body>
-		
-		${ar1[title]}
-		${date}
-			
-	</body>
-</html>`;
+<head>
 
+<title>kokul</title>
+</head>
+<body>
+
+${title}
+${date}
+
+</body>
+</html>`;
+}
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
