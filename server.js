@@ -30,8 +30,7 @@ function ctemplate(data)
     </head>
     <body>
     <h1>hello</h1>
-        ${title}
-        ${date}
+       
     </body>
     </html>`;
 }
