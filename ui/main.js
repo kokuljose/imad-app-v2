@@ -1,3 +1,3 @@
 console.log('Loaded!');
-var element=document.get ElementById('main');
+var element=document.getElementById('main');
 element.innerHTML="kokul jose";
