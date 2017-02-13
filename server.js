@@ -12,6 +12,10 @@ var article={
             ar2:{
             title:'kokul 2',
             date:"sept2"
+            },
+            ar3:{
+            title:'kokul 3',
+            date:"sept3"
             }
     };
 var template=` <!DOCTYPE html>
