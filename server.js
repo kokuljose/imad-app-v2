@@ -22,7 +22,7 @@ var template=` <!DOCTYPE html>
 <html>
 	<head>
 		
-		<title>${title}</title>
+		<title>kokul</title>
 	</head>
 	<body>
 		
