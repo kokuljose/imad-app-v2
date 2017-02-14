@@ -37,9 +37,9 @@ function ctemplate(data)
     return template;
 }
 var count=0;
-app.get("/counter",function(req,res){
+app.get("/counter",function(req,res) {
     count=count+1;
-    res.sent(count,toString());
+    res.send(count,toString());
 });
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
