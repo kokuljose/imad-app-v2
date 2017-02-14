@@ -12,6 +12,6 @@ button.onclick=function() {
         }
     };
     req.open("GET","http://kokuljose.imad.hasura-app.io/counter",true);
-    req.sent(null);
+    req.send(null);
     
 };
