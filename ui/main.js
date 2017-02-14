@@ -1,5 +1,5 @@
 var button=document.getElementById("count");
-var count=0;
+
 button.onclick=function() {
     var req=new XMLHttpRequest();
     req.onreadystatechange=function(){
