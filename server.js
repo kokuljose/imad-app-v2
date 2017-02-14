@@ -36,6 +36,11 @@ function ctemplate(data)
     </html>`;
     return template;
 }
+var count=0;
+app.get("/counter",function(req,res){
+    count=count+1;
+    res.sent(count,toString());
+});
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
