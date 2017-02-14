@@ -10,7 +10,7 @@ button.onclick=function() {
              span.innerHTML=count.toString();
             }
         }
-    }
+    };
     
     
 };
