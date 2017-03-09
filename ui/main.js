@@ -1,17 +1,7 @@
 var button=document.getElementById("count");
-
-button.onclick=function() {
-    var req=new XMLHttpRequest();
-    req.onreadystatechange=function(){
-        if(req.readyState===XMLHttpRequest.DONE){
-            if(req.status===200){
-             var count=request.responseText;
-             var span =document.getElementById("c");
-             span.innerHTML=count.toString();
-            }
-        }
-    };
-    req.open("GET","http://kokuljose.imad.hasura-app.io/counter",true);
-    req.send(null);
-    
+var coun=0;
+button.onclick=function(){
+     coun=coun+1;
+     var span=document.getElementById("c");
+     span.innerHTML=counter.toString();
 };
