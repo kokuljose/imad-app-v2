@@ -1,22 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @kokuljose
- Sign out
- Unwatch 1
-  Star 0
- Fork 2,083 kokuljose/imad-app-v2
-forked from hasura-imad/imad-app-v2
- Code  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
-Tree: 4807a26853 Find file Copy pathimad-app-v2/server.js
-7029725  18 minutes ago
-@kokuljose kokuljose [imad-console] Updates server.js
-2 contributors @kokuljose @shahidhk
-RawBlameHistory     
-64 lines (58 sloc)  1.42 KB
+
 var express = require('express');
 var morgan = require('morgan');
 var path = require('path');
