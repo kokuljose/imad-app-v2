@@ -19,7 +19,7 @@ var article={
             }
     };
 
-/*function ctemplate(data)
+function ctemplate(data)
 {
     var title=data.title;
     var date=data.date;
@@ -35,7 +35,7 @@ var article={
     </body>
     </html>`;
     return template;
-}*/
+}
 var count=0;
 app.get("/counter", function(req,res) {
     count = count+1;
