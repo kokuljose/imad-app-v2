@@ -2,7 +2,7 @@ var button =document.getElementById("counter");
 var counter=0;
 button.onclick=function(){
     counter=counter+1;
-    var span = document.getElementById("count");
+    var span = document.getElementById("count1");
     span.innnerHTML=counter.toString();
     console.log(counter);
 };
