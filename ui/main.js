@@ -1,8 +1,16 @@
 var button =document.getElementById('counter');
-var counter=0;
+
 button.onclick=function(){
-    counter=counter+1;
-    var span = document.getElementById('count1');
-    span.innerHTML=counter.toString();
-    console.log(counter);
+    request.onreadystatechange-function(){
+        if(request.redyState===XMLRequest.DONE){
+            if(request.status===200){
+                var counter =request.responseText;
+                var span=document.getElementById('count');
+                span.innerHTML=counter.toString();
+            }
+        }
+    };
+   
+    request.open("get","http://kokuljose.imad.hasura-app.io/counter",true);
+    request.send(null);
 };
