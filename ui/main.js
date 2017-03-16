@@ -1,6 +1,5 @@
 console.log('Loaded!');
-var element=document.getElementById('main-text');
-element.innerHTML="newvalue";
+
 
 var img=document.getElementById("madi");
 marginLeft=0;
