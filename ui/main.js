@@ -4,10 +4,10 @@ element.innerHTML="newvalue";
 
 var img=document.getElementById("madi");
 function moveRight(){
-    marginleft=marginleft+10;
-    img.style.marginLeft+"px";
+    marginLeft=marginLeft+10;
+    img.style.marginLeft=marginleft+"px";
 }
 img.onclick=function() {
-    var interval=setInterval(moveright,100);
+    var interval=setInterval(moveRight,100);
     
 };
