@@ -5,7 +5,7 @@ var path = require('path');
 var Pool=require("pg").Pool;
 
 
-var confiq= {
+var config= {
     user:"kokuljose",
     database:"kokuljose",
     host:"db.imad.hasura_app.io",
